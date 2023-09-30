@@ -6,7 +6,7 @@
 }
 program timeee;
 begin
-  var x := ReadInteger('Сколько сейчас времени?');
+  var x := ReadInteger('Который час?');
   Assert((x>=0) and (x<=23));
   
   
